@@ -1,7 +1,9 @@
+import Noodle from "./Noodle"
 function App() {
 	return (
 		<div>
-			Hello world		</div>
+			<Noodle />
+		</div>
 	)
 }
 

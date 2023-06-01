@@ -1,5 +1,6 @@
 import React from 'react';
 import CategoryList from '../components/CategoryList';
+import logo from '../assets/logo.png';
 import '../styles/Noodle.css';
 
 function Noodle() {
@@ -73,7 +74,7 @@ function Noodle() {
     return (
         <div className="netflix">
             <header className="header">
-                <img className="header__logo" src="logo-netflix.png" alt="Netflix Logo" />
+                <img className="header__logo" src={logo} alt="Netflix Logo" />
                 <nav className="navbar">
                     <span className="navbar__item">Accueil</span>
                     <span className="navbar__item">Séries TV</span>

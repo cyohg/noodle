@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/Noodle.css';
 import logo from '../assets/logo.png';
-import Sidebar from '../components/Sidebar';
 
 function Noodle() {
   return (

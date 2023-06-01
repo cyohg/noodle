@@ -1,0 +1,29 @@
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #141414;
+    color: #141414;
+  }
+  
+  .sidebar__item {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar__item:hover {
+    background-color: #00000037;
+    color : black
+  }
+  
+  .sidebar__submenu {
+    background-color: #141414;
+  }
+  
+  .sidebar__submenu .sidebar__item {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+  

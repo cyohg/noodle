@@ -101,6 +101,10 @@ function Noodle() {
                 <br></br>
                 <br></br>
                 <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
                 <CategoryList categories={categories} />
             </div>
 

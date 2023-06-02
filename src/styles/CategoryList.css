@@ -3,7 +3,8 @@
 }
 
 .category-title {
-    padding: 15px;
-    margin-top: 50px;
-    margin-left: 48px;
+    position: relative; /* Set the positioning context */
+    top: 20px;
+    margin-left: 65px;
+    height: 0px;
 }

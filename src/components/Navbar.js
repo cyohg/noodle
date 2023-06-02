@@ -8,8 +8,8 @@ function Navbar(){
 return(
     <header className="header">
     <nav className="navbar">
-    <Link className='navbar__logo' to='/'>
-      <img src={logo} alt="Noodle Logo"/>
+    <Link to='/'>
+      <img classname='navbar__logo'src={logo} alt="Noodle Logo"/>
     </Link>
         <Link className="custom-link" to="/">Accueil</Link>
         <span className="navbar__item">Nouveautés</span>

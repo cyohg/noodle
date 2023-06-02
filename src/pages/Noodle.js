@@ -2,6 +2,8 @@ import React from 'react';
 import CategoryList from '../components/CategoryList';
 import logo from '../assets/logo.png';
 import '../styles/Noodle.css';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import Navbar from '../components/Navbar';
 
 function Noodle() {
     const categories = [
@@ -71,19 +73,9 @@ function Noodle() {
         },
     ];
       
-    return (
+    return (    
         <div className="netflix">
-            <header className="header">
-                <img className="header__logo" src={logo} alt="Netflix Logo" />
-                <nav className="navbar">
-                    <span className="navbar__item">Accueil</span>
-                    <span className="navbar__item">Séries TV</span>
-                    <span className="navbar__item">Films</span>
-                    <span className="navbar__item">Nouveautés les plus regardées</span>
-                    <span className="navbar__item">Ma liste</span>
-                </nav>
-            </header>
-
+          <Navbar />
             <div>
                 <br></br>
                 <br></br>

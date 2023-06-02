@@ -1,0 +1,15 @@
+.custom-link {
+    padding : 15px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 15px;
+    cursor: pointer;
+    text-decoration: none; /* Supprime le soulignement */
+    color: inherit; /* Utilise la couleur par défaut du texte */
+    cursor: pointer; /* Change le curseur de la souris au survol */
+    /* Autres styles personnalisés */
+  }
+ 
+.custom-link:hover {
+    color: #d4d4d4;
+  }

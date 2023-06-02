@@ -1,5 +1,7 @@
 import Carousel from './Carousel';
+import HoverTitle from './HoverTitle';
 import '../styles/CategoryList.css'
+
 
 const CategoryList = ({ categories }) => {
 	return (
@@ -7,7 +9,9 @@ const CategoryList = ({ categories }) => {
 			<ul className="category-list">
 				{categories.map((category, index) => (
 					<li key={index} className="list-element">
-						<div className="category-title">{category.title}</div>
+						<div className="category-title">
+							<HoverTitle text1={'Category ' + index} text2="Tout explorer" />
+						</div>
 						<Carousel images={category.images} />
 					</li>
 				))}

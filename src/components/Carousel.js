@@ -21,17 +21,17 @@ const Carousel = ({ images }) => {
     return (
         <div className="image-carousel">
             <button className="carousel-button left" onClick={scrollLeft}>
-            &lt;
+                &lt;
             </button>
-        <div className="carousel-container" ref={carouselRef}>
-            {images.map((image, index) => (
-                <div key={index} className="image-wrapper">
-                    <img src={image} alt={`Image ${index}`} className="carousel-image" />
-                </div>
-            ))}
-        </div>
+            <div className="carousel-container" ref={carouselRef}>
+                {images.map((image, index) => (
+                    <div key={index} className="image-wrapper">
+                        <img src={image} alt={`Image ${index}`} className="carousel-image" />
+                    </div>
+                ))}
+            </div>
             <button className="carousel-button right" onClick={scrollRight}>
-            &gt;
+                &gt;
             </button>
         </div>
     );

@@ -40,6 +40,9 @@
     height: 100px;
     border: 0px;
     font-size: 40px;
-    background: rgba(0,0,0,0);
-    color: white;
+    opacity: 30%;
+}
+
+.carousel-button:hover {
+    opacity: 100%;
 }

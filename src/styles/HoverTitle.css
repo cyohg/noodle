@@ -1,0 +1,17 @@
+.hovered-element {
+    font-size: 30px;
+    color: rgb(197, 194, 194);
+	font-weight: bold;
+}
+
+.hovered-element:hover {
+	color: white;
+}
+
+.displayed-element {
+    font-size: 20px;
+	font-weight: bold;
+	color: lightblue;
+	margin-left: 20px;
+	display: inline-block;
+}

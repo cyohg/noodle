@@ -62,7 +62,7 @@
   /* Style de la Searchbar */
   .search {
     width: 200%;
-    background-color: #ffffff; /* TODO : Trouver un moyen de rendre ça joli */
+    background-color: #ffffff;
     border-radius: 5px 5px 0px 0px;
   }
   

@@ -7,11 +7,11 @@ import '../styles/Link.css'
 function Navbar(){
 return(
     <header className="header">
-    <Link className='header__logo' to='/Noodle'>
+    <nav className="navbar">
+    <Link className='navbar__logo' to='/'>
       <img src={logo} alt="Noodle Logo"/>
     </Link>
-    <nav className="navbar">
-        <Link className="custom-link" to="/Noodle">Accueil</Link>
+        <Link className="custom-link" to="/">Accueil</Link>
         <span className="navbar__item">Nouveautés</span>
         <Link className="custom-link" to="/Mylist">Ma Liste</Link>
     </nav>

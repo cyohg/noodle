@@ -47,6 +47,13 @@
     margin-right: 15px;
     cursor: pointer;
   }
+
+  .navbar__logo {
+    padding : 15px;
+    font-weight: bold;
+    margin-right: 15px;
+    cursor: pointer;
+  }
   
   .navbar__item:hover {
     color: #d4d4d4;

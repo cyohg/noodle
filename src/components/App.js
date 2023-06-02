@@ -7,8 +7,9 @@ function App() {
 <BrowserRouter>
       <Navbar/>
 	  <Routes>
-        <Route path="/Mylist" element={<Mylist />} /> 
-		<Route path="/Noodle" element={<Noodle />} /> 
+      <Route path="/" element={<Noodle />} />
+      <Route path="/Mylist" element={<Mylist />} /> 
+		  <Route path="/Noodle" element={<Noodle />} /> 
       </Routes>
     </BrowserRouter>	)
 }

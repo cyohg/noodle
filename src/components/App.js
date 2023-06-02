@@ -4,8 +4,7 @@ import Noodle from "../pages/Noodle"
 import Navbar from "./Navbar";
 function App() {
 	return (
-<BrowserRouter>
-      <Navbar/>
+<BrowserRouter>  
 	  <Routes>
       <Route path="/" element={<Noodle />} />
       <Route path="/Mylist" element={<Mylist />} /> 

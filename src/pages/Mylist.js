@@ -27,10 +27,14 @@ function Mylist() {
             ],
         }
     ]
-    return (    
+    return (        
         <div className="netflix">
           <Navbar />
             <div>
+            <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
                 <br></br>
                 <br></br>
                 <br></br>

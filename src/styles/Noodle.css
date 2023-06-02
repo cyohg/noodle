@@ -21,7 +21,7 @@
     height: 100px;
     display: flex;
     align-items: center;
-    background-color: #000000;
+    background-color: #141414;
     z-index: 999;
   }
   
@@ -48,16 +48,14 @@
     cursor: pointer;
   }
 
-  .navbar__logo {
-    padding : 15px;
-    font-weight: bold;
-    cursor: pointer;
-    height:auto;
-    width:7%;
-    margin-left : 90px;
-    margin-right : 80px;
-    font-size:20px;
-  }
+.navbar__logo {
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  height: auto;
+  width: 10px; /* Modifier la valeur en fonction de la taille souhaitée */
+  font-size: 20px;
+}
   
   .navbar__item:hover {
     color: #d4d4d4;

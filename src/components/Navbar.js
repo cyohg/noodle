@@ -6,13 +6,11 @@ import '../styles/Link.css'
 
 function Navbar(){
 return(
+
     <header className="header">
-    <nav className="navbar">
-    <Link to='/'>
-      <img classname='navbar__logo'src={logo} alt="Noodle Logo"/>
-    </Link>
+    <img className='header__logo' src={logo} alt="Noodle Logo"/>
+    <nav className='navbar'>
         <Link className="custom-link" to="/">Accueil</Link>
-        <span className="navbar__item">Nouveautés</span>
         <Link className="custom-link" to="/Mylist">Ma Liste</Link>
     </nav>
     </header>)
